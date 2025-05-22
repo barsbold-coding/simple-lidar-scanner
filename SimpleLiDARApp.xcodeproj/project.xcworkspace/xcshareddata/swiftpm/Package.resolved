@@ -1,0 +1,15 @@
+{
+  "originHash" : "981be98956c3690bc5f2c8840b4c8c02c29d8382aa7f739c6dc197d188f30eaa",
+  "pins" : [
+    {
+      "identity" : "lidarkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tyang-gauntlet/LiDARKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "02e113f1e6bdbb6bc57813ec2b129d738a44b5cb"
+      }
+    }
+  ],
+  "version" : 3
+}

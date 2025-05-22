@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0BD4855E2DDEFDA600533815 /* LiDARKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0BD4855D2DDEFDA600533815 /* LiDARKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0BD4853A2DDEF96A00533815 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD4855E2DDEFDA600533815 /* LiDARKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = SimpleLiDARApp;
 			packageProductDependencies = (
+				0BD4855D2DDEFDA600533815 /* LiDARKit */,
 			);
 			productName = SimpleLiDARApp;
 			productReference = 0BD4852C2DDEF96800533815 /* SimpleLiDARApp.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 0BD485232DDEF96800533815;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0BD4855C2DDEFD6A00533815 /* XCRemoteSwiftPackageReference "LiDARKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0BD4852D2DDEF96800533815 /* Products */;
 			projectDirPath = "";
@@ -562,6 +571,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BD4855C2DDEFD6A00533815 /* XCRemoteSwiftPackageReference "LiDARKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tyang-gauntlet/LiDARKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BD4855D2DDEFDA600533815 /* LiDARKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BD4855C2DDEFD6A00533815 /* XCRemoteSwiftPackageReference "LiDARKit" */;
+			productName = LiDARKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0BD485242DDEF96800533815 /* Project object */;
 }
